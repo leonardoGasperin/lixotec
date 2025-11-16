@@ -129,7 +129,7 @@ function renderPagination(totalPages, currentPage) {
     document.querySelectorAll('.page-btn').forEach(btn => {
         btn.addEventListener('click', (e) => {
             const page = parseInt(e.target.dataset.page);
-            loadFeed(page); // função que você já tem
+            loadFeed(page);
         });
     });
 }
